@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codisa.Application", "Codis
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Test", "0 - Test", "{A1F2DCE4-6222-40B7-A9ED-61E89B5DF524}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codisa.Test", "Codisa.Test\Codisa.Test.csproj", "{F5D2DB38-AAA4-48D7-A9AB-A82E866EFCDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codisa.Test", "Codisa.Test\Codisa.Test.csproj", "{F5D2DB38-AAA4-48D7-A9AB-A82E866EFCDF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - SQL", "4 - SQL", "{EF7DDAF5-2578-451E-80A7-62F124DA4DAD}"
 	ProjectSection(SolutionItems) = preProject
