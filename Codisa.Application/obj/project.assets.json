@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Codisa.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Codisa.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Codisa.Core.dll": {}
+        }
+      },
+      "Codisa.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Codisa.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Codisa.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Codisa.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Codisa.Core/1.0.0": {
+      "type": "project",
+      "path": "../Codisa.Core/Codisa.Core.csproj",
+      "msbuildProject": "../Codisa.Core/Codisa.Core.csproj"
+    },
+    "Codisa.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Codisa.Infrastructure/Codisa.Infrastructure.csproj",
+      "msbuildProject": "../Codisa.Infrastructure/Codisa.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.2": [
+      "Codisa.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Caleb\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Caleb\\Desktop\\MATEIII\\WebApplicacionCodisaNetCore\\Codisa.Application\\Codisa.Application.csproj",
+      "projectName": "Codisa.Application",
+      "projectPath": "C:\\Users\\Caleb\\Desktop\\MATEIII\\WebApplicacionCodisaNetCore\\Codisa.Application\\Codisa.Application.csproj",
+      "packagesPath": "C:\\Users\\Caleb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Caleb\\Desktop\\MATEIII\\WebApplicacionCodisaNetCore\\Codisa.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Caleb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.2"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "projectReferences": {
+            "C:\\Users\\Caleb\\Desktop\\MATEIII\\WebApplicacionCodisaNetCore\\Codisa.Infrastructure\\Codisa.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Caleb\\Desktop\\MATEIII\\WebApplicacionCodisaNetCore\\Codisa.Infrastructure\\Codisa.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}

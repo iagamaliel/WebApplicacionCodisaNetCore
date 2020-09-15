@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Codisa.Infrastructure.ParamsDTO.EmpleadoDto>
+
+<p>
+    @Html.ActionLink("Nuevo Empleado", "NewEmployee")
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Cedula
+            </th>
+            <th>
+                Correo
+            </th>
+            <th>
+                Fecha Nacimiento
+            </th>
+            <th>
+                Fecha ingreso
+            </th>
+            <th>
+                Acciones
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreCompleto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cedula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Correo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaNacimientoFormat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaIngresoFormat)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "EditEmployee", item) |
+                @Html.ActionLink("Eliminar", "DeleteEmployee", new { id = item.IdEmpleado }) |
+                @Html.ActionLink("Ver", "DetailEmployee", item)|
+                @Html.ActionLink("Habilidades", "DetailSkill", new { id = item.IdEmpleado, nombre = item.NombreCompleto })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

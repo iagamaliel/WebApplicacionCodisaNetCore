@@ -1,0 +1,113 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "1fc005750d8c6ca5846e90d0224ca8684895cb01"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Codisa.Infrastructure/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.0.0",
+          "Codisa.Core": "1.0.0",
+          "Dapper": "2.0.35",
+          "System.Data.SqlClient": "4.5.0.0"
+        },
+        "runtime": {
+          "Codisa.Infrastructure.dll": {}
+        }
+      },
+      "AutoMapper/10.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        }
+      },
+      "Dapper/2.0.35": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.35.21366"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "System.Reflection.Emit/4.7.0": {},
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "Codisa.Core/1.0.0": {
+        "runtime": {
+          "Codisa.Core.dll": {}
+        }
+      },
+      "System.Data.SqlClient/4.5.0.0": {
+        "runtime": {
+          "System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.6.27110.4"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Codisa.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T09NoqMZBqw0/JEauXulxnmmerl0Zj03e0r6VCcJ0LURWBIaYxZPPoiDv8bHf5Y4x2xcXJp4JPXoCaeOMJfHEA==",
+      "path": "automapper/10.0.0",
+      "hashPath": "automapper.10.0.0.nupkg.sha512"
+    },
+    "Dapper/2.0.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/xAgd8BO8EDnJ0sURWEV8LptHHvTKxoYiT63YUF2U/yWE2VyUCqR2jcrtEyNngT9Kjzppecz95UKiBla3PnR7g==",
+      "path": "dapper/2.0.35",
+      "hashPath": "dapper.2.0.35.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "Codisa.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.SqlClient/4.5.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

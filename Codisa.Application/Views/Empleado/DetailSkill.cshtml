@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Codisa.Infrastructure.ParamsDTO.EmpleadoHabilidadDto>
+
+@{
+    ViewData["Title"] = "DetailSkill";
+}
+
+<h1>Habilidades del empleado @ViewBag.NombreEmpleado</h1>
+
+<p>
+    @Html.ActionLink("Agregar habilidad", "NewEmployeeSkill")
+    @Html.ActionLink("Regresar lista empleados", "Index")
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Habilidad
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreHabilidad)
+            </td>
+            <td>
+                @Html.ActionLink("Eliminar", "DeleteEmployeeSkill", new { id=item.IdHabilidad })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

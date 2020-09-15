@@ -1,0 +1,17 @@
+C:\Users\trecsalaza\source\repos\Codisa\Codisa.Core\bin\Debug\netcoreapp2.2\Codisa.Core.deps.json
+C:\Users\trecsalaza\source\repos\Codisa\Codisa.Core\bin\Debug\netcoreapp2.2\Codisa.Core.dll
+C:\Users\trecsalaza\source\repos\Codisa\Codisa.Core\bin\Debug\netcoreapp2.2\Codisa.Core.pdb
+C:\Users\trecsalaza\source\repos\Codisa\Codisa.Core\obj\Debug\netcoreapp2.2\Codisa.Core.csproj.CoreCompileInputs.cache
+C:\Users\trecsalaza\source\repos\Codisa\Codisa.Core\obj\Debug\netcoreapp2.2\Codisa.Core.AssemblyInfoInputs.cache
+C:\Users\trecsalaza\source\repos\Codisa\Codisa.Core\obj\Debug\netcoreapp2.2\Codisa.Core.AssemblyInfo.cs
+C:\Users\trecsalaza\source\repos\Codisa\Codisa.Core\obj\Debug\netcoreapp2.2\Codisa.Core.dll
+C:\Users\trecsalaza\source\repos\Codisa\Codisa.Core\obj\Debug\netcoreapp2.2\Codisa.Core.pdb
+C:\Users\trecsalaza\Desktop\Codisa\Codisa\Codisa.Core\bin\Debug\netcoreapp2.2\Codisa.Core.deps.json
+C:\Users\trecsalaza\Desktop\Codisa\Codisa\Codisa.Core\bin\Debug\netcoreapp2.2\Codisa.Core.dll
+C:\Users\trecsalaza\Desktop\Codisa\Codisa\Codisa.Core\bin\Debug\netcoreapp2.2\Codisa.Core.pdb
+C:\Users\trecsalaza\Desktop\Codisa\Codisa\Codisa.Core\obj\Debug\netcoreapp2.2\Codisa.Core.csprojAssemblyReference.cache
+C:\Users\trecsalaza\Desktop\Codisa\Codisa\Codisa.Core\obj\Debug\netcoreapp2.2\Codisa.Core.csproj.CoreCompileInputs.cache
+C:\Users\trecsalaza\Desktop\Codisa\Codisa\Codisa.Core\obj\Debug\netcoreapp2.2\Codisa.Core.AssemblyInfoInputs.cache
+C:\Users\trecsalaza\Desktop\Codisa\Codisa\Codisa.Core\obj\Debug\netcoreapp2.2\Codisa.Core.AssemblyInfo.cs
+C:\Users\trecsalaza\Desktop\Codisa\Codisa\Codisa.Core\obj\Debug\netcoreapp2.2\Codisa.Core.dll
+C:\Users\trecsalaza\Desktop\Codisa\Codisa\Codisa.Core\obj\Debug\netcoreapp2.2\Codisa.Core.pdb

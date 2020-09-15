@@ -1,0 +1,65 @@
+﻿@model Codisa.Application.Models.Empleado.UpdateEmployee
+
+@{
+    ViewData["Title"] = "EditEmployee";
+}
+
+<h4>Editar Empleado</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SaveUpdateEmployee">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="IdEmpleado" type="hidden" />
+            <div class="form-group">
+                <label asp-for="NombreCompleto" class="control-label"></label>
+                <input asp-for="NombreCompleto" class="form-control" />
+                <span asp-validation-for="NombreCompleto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cedula" class="control-label"></label>
+                <input asp-for="Cedula" class="form-control" />
+                <span asp-validation-for="Cedula" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Correo" class="control-label"></label>
+                <input asp-for="Correo" class="form-control" />
+                <span asp-validation-for="Correo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Fecha Nacimiento</label>
+                <input asp-for="FechaNacimiento" type="date" class="form-control" />
+                <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Fecha Ingreso</label>
+                <input asp-for="FechaIngreso" type="date" asp-format="{0:dd/MM/yyyy}" class="form-control" />
+                <span asp-validation-for="FechaIngreso" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdJefe" class="control-label">Jefe</label>
+                <select asp-for="IdJefe" class="form-control">
+                    <option value="1">Yetty Vargas</option>
+                    <option value="2">Anthony Fernandez</option>
+                </select>
+                <span asp-validation-for="IdJefe" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdArea" class="control-label">Area</label>
+                <select asp-for="IdArea" class="form-control" asp-items="@ViewBag.Areas"></select>
+                <span asp-validation-for="IdArea" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Actualizar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Regresar a la Lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
